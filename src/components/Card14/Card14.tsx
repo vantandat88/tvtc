@@ -6,7 +6,7 @@ import PostTypeFeaturedIcon from "@/components/PostTypeFeaturedIcon/PostTypeFeat
 import Link from "next/link";
 import { CommonPostCardProps } from "../Card2/Card2";
 import { getPostDataFromPostFragment } from "@/utils/getPostDataFromPostFragment";
-import { useFragment } from "@/__generated__";
+
 import { NC_IMAGE_MEDIA_FRAGMENT } from "@/fragments";
 import ncFormatDate from "@/utils/formatDate";
 
