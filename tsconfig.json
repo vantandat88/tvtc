@@ -20,10 +20,13 @@
       }
     ],
     "paths": {
-      "@/*": ["./src/*"],
-      "@/__generated__/*": ["./src/__generated__/*"]
+      "@/*": ["./src/*"]
     }
   },
+  "include": [
+    "src",
+    "types"
+],
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
   "exclude": ["node_modules", "src/__generated__"]
 }
