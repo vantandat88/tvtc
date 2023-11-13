@@ -21,7 +21,8 @@
     ],
     "baseUrl": ".",
     "paths": {
-      "@/__generated__/*": ["./src/__generated__/*"]
+      "@/__generated__/*": ["./src/__generated__/*"],
+      "@/*": ["./src/*"]
     }
   },
   "include": [
